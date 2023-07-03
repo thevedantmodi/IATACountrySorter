@@ -10,9 +10,27 @@ belonging to multiple countries! It was pretty inconvenient when I discovered
 this, so I spent a few hours making this instead of searching for flights.
 
 # Usage
-Terminal command: `python3 country_sorter [input file] [output directory]`
+
 Need to install Python 3.x to run this! 
 Get here: https://www.python.org/downloads/ 
+
+After getting Python, download the latest release, and change to the folder in
+the terminal. (i.e. `cd country_sorter/`)
+
+Then install pip if you have not already, here 
+https://pip.pypa.io/en/stable/installation/.
+
+You want to make a virtual environment here, to run the python program inside
+this, away from all other systems. Enter this to create it, 
+`python3 -m venv country_sorter_env/`. Enter this to activate the environment
+`source country_sorter_env/bin/activate`. 
+
+Run `pip install -r requirements.txt` to get the packages required for the
+program to work.
+
+Taken from https://towardsdatascience.com/virtual-environments-104c62d48c54
+
+Finally, run `python3 country_sorter [input file] [output directory]`!
 
 # Implementation
 - Read in the airports file
