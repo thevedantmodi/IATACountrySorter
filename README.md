@@ -32,6 +32,8 @@ Taken from https://towardsdatascience.com/virtual-environments-104c62d48c54
 
 Finally, run `python3 country_sorter [input file] [output directory]`!
 
+**Find the final sorted link at this (GitHub repo)[https://github.com/thevedantmodi/IATA-Country-Sorted]**
+
 # Implementation
 - Read in the airports file
 - Store the airports list in an array
